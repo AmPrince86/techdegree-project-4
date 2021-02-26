@@ -399,55 +399,35 @@ a {
 .default:hover {
   background-color: #51ddfc;
 }
-
-.error:hover {
-  background-color: #e4757a;
-}
-
-.info:hover {
-  background-color: #927bc1;
-}
-
-.success:hover {
-  background-color: #63cc82;
-}
-
-.warning:hover {
-  background-color: #fd7856;
-}
-
-.default {
-  background-color: #51ddfc;
-}
-.default:hover {
+.default:hover:hover {
   background-color: #9cecfd;
 }
 
-.error {
+.error:hover {
   background-color: #e4757a;
 }
-.error:hover {
+.error:hover:hover {
   background-color: #f1b5b8;
 }
 
-.info {
+.info:hover {
   background-color: #927bc1;
 }
-.info:hover {
+.info:hover:hover {
   background-color: #bdafd9;
 }
 
-.success {
+.success:hover {
   background-color: #63cc82;
 }
-.success:hover {
+.success:hover:hover {
   background-color: #9ddfb0;
 }
 
-.warning {
+.warning:hover {
   background-color: #fd7856;
 }
-.warning:hover {
+.warning:hover:hover {
   background-color: #feb4a2;
 }
 

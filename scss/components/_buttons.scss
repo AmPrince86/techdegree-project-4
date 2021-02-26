@@ -14,45 +14,40 @@
 }
 
 .default:hover {
-  background-color: #51ddfc;
+  background-color: $color-1;
+  &:hover {
+    background-color: lighten($color-1, 15%);
+  }
 }
 
 .error:hover {
-  background-color: #e4757a;
+  background-color: $color-2;
+  &:hover {
+    background-color: lighten($color-2, 15%);
+  }
 }
 
 .info:hover {
-  background-color: #927bc1;
+  background-color: $color-3;
+  &:hover {
+    background-color: lighten($color-3, 15%);
+  }
 }
 
 .success:hover {
   background-color: $color-five;
+  &:hover {
+    background-color: lighten($color-five, 15%);
+  }
 }
 
 .warning:hover {
-  background-color: #fd7856;
-}
-
-
-//Button hovers
-$buttons: (
-  default: $color-1,
-  error: $color-2,
-  info: $color-3,
-  success: $color-five,
-  warning: $color-4,
-);
-
-@each $button, $color in $buttons {
-  .#{$button} {
-    background-color: $color;
-
-      &:hover {
-        background-color: lighten($color, 15%);
-
-      }
+  background-color: $color-4;
+  &:hover {
+    background-color: lighten($color-4, 15%);
   }
 }
+
 
 .default {
   background-color: #51ddfc;
