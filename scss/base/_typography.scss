@@ -4,7 +4,7 @@
 /* ============================================= */
 
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: $font-primary;
   color: $color-one;
   box-sizing: border-box;
 }
@@ -28,18 +28,18 @@ a {
 }
 
 .headline-secondary {
-  font-weight: 300;
+  font-weight: $font-light;
   color: $color-one;
 }
 
 .link {
-  color: #51ddfc;
-  font-weight: 700;
+  color: $color-six;
+  font-weight: $font-bold;
 }
 
 .blockquote {
   font-size: 1.5em;
-  font-weight: 300;
+  font-weight: $font-light;
   font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
