@@ -10,6 +10,7 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  transition-duration: 0.5s;
 }
 
 .default:hover {
@@ -48,6 +49,7 @@ $buttons: (
 
       &:hover {
         background-color: lighten($color, 15%);
+
       }
   }
 }
