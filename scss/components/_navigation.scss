@@ -16,11 +16,10 @@
   display: block;
   width: 100%;
   transition: 
-    background-color .2s ease-in-out, 
-    color .2s ease-in-out;
-}
-
-.nav-link:hover {
-  color: $color-three;
-  background-color: $color-two;
+  background-color .2s ease-in-out, 
+  color .2s ease-in-out;
+  &:hover {
+    color: $color-three;
+    background-color: $color-two;
+  }
 }
