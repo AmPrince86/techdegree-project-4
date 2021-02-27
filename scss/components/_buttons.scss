@@ -13,58 +13,37 @@
   transition-duration: 0.5s;
 }
 
-.default:hover {
-  background-color: $color-1;
-  &:hover {
-    background-color: lighten($color-1, 15%);
-  }
-}
-
-.error:hover {
-  background-color: $color-2;
-  &:hover {
-    background-color: lighten($color-2, 15%);
-  }
-}
-
-.info:hover {
-  background-color: $color-3;
-  &:hover {
-    background-color: lighten($color-3, 15%);
-  }
-}
-
-.success:hover {
-  background-color: $color-five;
-  &:hover {
-    background-color: lighten($color-five, 15%);
-  }
-}
-
-.warning:hover {
-  background-color: $color-4;
-  &:hover {
-    background-color: lighten($color-4, 15%);
-  }
-}
-
-
 .default {
   background-color: #51ddfc;
+    &:hover {
+      background-color: lighten(#51ddfc, 15%);
+  }
 }
 
 .error {
   background-color: #e4757a;
+    &:hover {
+      background-color: lighten(#e4757a, 15%);
+  }
 }
 
 .info {
   background-color: #927bc1;
+    &:hover {
+      background-color: lighten(#927bc1, 15%);
+  }
 }
 
 .success {
-  background-color: $color-five;
+  background-color: #63cc82;
+    &:hover {
+      background-color: lighten(#63cc82, 15%);
+  }
 }
 
 .warning {
   background-color: #fd7856;
+    &:hover {
+      background-color: lighten(#fd7856, 15%);
+  }
 }
